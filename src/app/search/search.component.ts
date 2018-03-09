@@ -15,14 +15,23 @@ export class SearchComponent {
   };
   bg_image: string;
 
+  //ENTER-BIND
+  /*onKeydown(event) {
+    if (event.key === "Enter") {
+      console.log('hej');
+    }
+  }*/
+
   constructor(private searchService: SearchService) { }
 
   getCity(name: string): void {
     this.searchService.getCity(name)
-    //.subscribe(data => this.city = { data });
     .subscribe(data => this.city = {
       weather: data['weather'][0]['main'],
     });
-    this.bg_image = this.searchService.getBackground(this.city);
+    }
+
+    update(): string {
+      return this.bg_image = this.searchService.getBackground(this.city);
     }
   }

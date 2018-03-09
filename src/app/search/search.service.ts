@@ -21,7 +21,7 @@ export class SearchService {
       case 'rain':
         return "https://images6.alphacoders.com/391/391347.jpg";
       case 'Clouds':
-        return "https://tctechcrunch2011.files.wordpress.com/2015/08/clouds.jpg";
+        return "http://www.texturex.com/albums/Sky-Textures/cloud%20texture%20above%20clouds%20fairy%20tale%20sky%20texture.jpg";
       case 'Thunderstorm':
         return "https://s.hswstatic.com/gif/thunderstorm-orig.jpg";
       case 'Drizzle':
@@ -29,7 +29,7 @@ export class SearchService {
       case 'Snow':
         return "https://static.bhphotovideo.com/explora/sites/default/files/Correct.jpg";
       case 'Clear':
-        return "http://moziru.com/images/sky-clipart-clear-weather-15.jpg";
+        return "http://moziru.com/images/sky-clipart-clear-weather-15.jp";
       case 'Extreme':
         return "https://static01.nyt.com/images/2017/12/15/climate/15cli-extremeweather-top/merlin_109107467_983c2205-5c2e-4a8f-ad73-a290f3b10d32-superJumbo.jpg";
       case 'Mist':
